@@ -17,7 +17,8 @@ http://nn-hokuson.hatenablog.com/entry/2017/03/03/202309
 ## Device ##
 
 ## note ##
-
+確認の結果、透明なtextureを張った際、輪郭が見えてしまう問題を発見した。
+よって、両面にtextureを貼る場合、planeではなく、Cubeにして、厚みをzeroにすることとする.
 
 
 
